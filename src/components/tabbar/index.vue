@@ -49,7 +49,7 @@ export default {
         justify-content: space-between;
     }
     .tabbar div{
-        min-width:1.03rem;
+        flex:1;
         font-size:12px;
         height:100%;
         display: flex;
@@ -69,5 +69,8 @@ export default {
         width:21px;
         height:21px;
         font-size:21px;
+    }
+    .router-link-active{
+        color: #ff5f16;
     }
 </style>
